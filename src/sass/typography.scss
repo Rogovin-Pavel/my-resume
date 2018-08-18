@@ -1,6 +1,12 @@
 @import "variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
-.main-header__item a { 
-    text-decoration: none;
-    color: $header-text-color;
+.social-buttons {
+    font-family: 'Roboto';
+    font-size: 20px;
+
+    &__item a { 
+        text-decoration: none;
+        color: $header-text-color;
+    }
 }

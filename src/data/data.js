@@ -5,7 +5,7 @@ const data = {
       id: 1,
       title: 'vkontakte',
       url: 'https://vk.com/id239609752',
-      src: 'src/img/svg/facebook-logo.svg'
+      src: 'src/img/svg/vk-logo.svg'
     },
     {
       id: 2,
