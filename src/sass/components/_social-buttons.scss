@@ -1,22 +1,9 @@
-@import "typography.scss";
-@import "variables.scss";
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.resume-header {  
-  width: $resume-width;
-  height: content;
-  background-color: $header-bg-color;   
-}
-
 .social-buttons {
   display: grid;
   grid-template-rows: 100px;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 30px;
+
 
   &__item {
     border: 1px solid black;

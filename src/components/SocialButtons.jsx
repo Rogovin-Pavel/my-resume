@@ -6,7 +6,7 @@ const SocialButtons = ({social}) =>
 
   <div className="social-buttons">
     { social.map((button) => 
-      <div className="social-buttons__item" key={button.id}>
+      <div className={`social-buttons__item item${button.id}`} key={button.id}>
         <SocialButton button={button} />
       </div>
     ) }
