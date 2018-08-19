@@ -6,6 +6,7 @@ import data from '../data/data';
 
 import Header from './Header';
 import Main from './Main';
+import Footer from './Footer';
 
 class Body extends Component {
   render() {
@@ -13,6 +14,7 @@ class Body extends Component {
       <div className="resume-body">
         <Header {...data}/>
         <Main />
+        <Footer {...data}/>
       </div>
     )
   }

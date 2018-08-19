@@ -31,6 +31,9 @@ const data = {
       url: '#',
       src: 'src/img/svg/skype-logo.svg'
     }
-  ]}
+  ],
+  skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Redux']
+
+}
 
 export default data;

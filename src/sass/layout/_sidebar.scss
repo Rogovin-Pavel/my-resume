@@ -1,5 +1,19 @@
 .resume-main__sidebar {
+
+  padding: 30px 0 0 30px;
+
   &-avatar {
-    padding: 30px 0 0 30px;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba(0, 0, 255, 0.5), 
+      rgba(128, 0, 128, 0.5)), url(/src/img/avatar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border: 2px solid black;
+    border-radius: 50%;
   }
+  
 }

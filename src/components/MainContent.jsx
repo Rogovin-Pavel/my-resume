@@ -3,9 +3,56 @@ import React from 'react';
 const MainContent = () =>
 
   <section className="resume-main__main-content">
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos at in ullam, aperiam ipsam, 
-    enim temporibus fuga eveniet vel facere iste error asperiores quisquam, quia impedit nesciunt 
-    laboriosam pariatur aliquid!
+    <div className="resume-main__main-content__skills">
+      <h2>SKILLS:</h2>
+      <ul>
+        <li>
+          <p>
+            HTML5
+          </p>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+        </li>
+        <li>
+          <p>
+            CSS3
+          </p>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+        </li>
+        <li>
+          <p>
+            JavaScript
+          </p>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+        </li>
+        <li>
+          <p>
+            React
+          </p>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+        </li>
+        <li>
+          <p>
+            Redux
+          </p>
+          <div className="star"></div>
+          <div className="star"></div>
+        </li>
+      </ul>
+    </div>
+    
   </section>
 
 export default MainContent;
