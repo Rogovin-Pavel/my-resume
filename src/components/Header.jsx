@@ -1,8 +1,8 @@
 import React from 'react';
 import SocialButtons from './SocialButtons';
 const Header = (data) =>
-  <section className="resume-header">
+  <header className="resume-header">
     <SocialButtons {...data}/>
-  </section>
+  </header>
 
 export default Header;

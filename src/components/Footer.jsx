@@ -1,8 +1,8 @@
 import React from 'react';
 import SocialButtons from './SocialButtons';
 const Footer = (data) =>
-  <section className="resume-footer">
+  <footer className="resume-footer">
     <SocialButtons {...data}/>
-  </section>
+  </footer>
 
 export default Footer;

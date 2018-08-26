@@ -3,11 +3,11 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import MainContent from './MainContent';
 
-const Main = () => 
+const Main = (data) => 
 
   <main className="resume-main">
     <Sidebar />
-    <MainContent />
+    <MainContent {...data}/>
   </main>
 
 

@@ -1,14 +1,16 @@
 
-.resume-main__main-content {
+.main-content {
   padding: 30px;
+}
 
-  &__skills {
-    & ul {
-      list-style: none;
-      & li {
-        display: flex;
-        margin-top: 10px;
-      }
-    }
+.skills {
+  
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    margin-top: 10px;
   }
 }

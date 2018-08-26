@@ -13,7 +13,7 @@ class Body extends Component {
     return(
       <div className="resume-body">
         <Header {...data}/>
-        <Main />
+        <Main {...data}/>
         <Footer {...data}/>
       </div>
     )

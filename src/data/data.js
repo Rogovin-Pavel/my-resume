@@ -32,7 +32,28 @@ const data = {
       src: 'src/img/svg/skype-logo.svg'
     }
   ],
-  skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Redux']
+  skills: [
+    {
+      title: 'HTML5',
+      rating: 5
+    },
+    {
+      title: 'CSS3',
+      rating: 4
+    },
+    {
+      title: 'JavaScript',
+      rating: 4
+    },
+    {
+      title: 'React',
+      rating: 3
+    },
+    {
+      title: 'Redux',
+      rating: 2
+    }
+  ]
 
 }
 
