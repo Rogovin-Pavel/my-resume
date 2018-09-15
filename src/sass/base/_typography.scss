@@ -7,8 +7,12 @@
 
     &__item a { 
         text-decoration: none;
-        color: $header-text-color;
+        color: $text-color;
     }
+}
+
+.skills {
+    color: $text-color;
 }
 
 .resume-main {

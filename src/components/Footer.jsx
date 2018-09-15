@@ -1,8 +1,13 @@
 import React from 'react';
 import SocialButtons from './SocialButtons';
-const Footer = (data) =>
+import PropTypes from 'prop-types';
+
+const Footer = (social) =>
   <footer className="resume-footer">
-    <SocialButtons {...data}/>
+    <SocialButtons {...social}/>
   </footer>
 
+Footer.propTypes = {
+  social: PropTypes.array.isRequired
+}
 export default Footer;

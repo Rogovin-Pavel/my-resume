@@ -10,7 +10,11 @@
   }
 
   &__item {
-    display: flex;
     margin-top: 10px;
+    display: flex;
+    
+    & :nth-child(2) {
+      margin-left: auto;
+    }
   }
 }

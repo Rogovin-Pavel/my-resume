@@ -35,7 +35,7 @@ const data = {
   skills: [
     {
       title: 'HTML5',
-      rating: 5
+      rating: 4
     },
     {
       title: 'CSS3',

@@ -1,8 +1,14 @@
 import React from 'react';
 import SocialButtons from './SocialButtons';
-const Header = (data) =>
+import PropTypes from 'prop-types';
+
+const Header = (social) =>
   <header className="resume-header">
-    <SocialButtons {...data}/>
+    <SocialButtons {...social}/>
   </header>
+
+  Header.propTypes = {
+    social: PropTypes.array.isRequired
+  }
 
 export default Header;

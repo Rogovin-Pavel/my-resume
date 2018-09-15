@@ -9,12 +9,17 @@ import Main from './Main';
 import Footer from './Footer';
 
 class Body extends Component {
+  constructor(props) {
+    super(props)
+  };
+
   render() {
+    const { social, skills } = data;
     return(
       <div className="resume-body">
-        <Header {...data}/>
-        <Main {...data}/>
-        <Footer {...data}/>
+        <Header social = { social }/>
+        <Main skills = { skills }/>
+        <Footer social = { social }/>
       </div>
     )
   }

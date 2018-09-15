@@ -1,10 +1,14 @@
 import React from 'react';
 import Skills from './Skills';
+import PropTypes from 'prop-types';
 
-const MainContent = (data) =>
+const MainContent = (skills) =>
 
   <section className="main-content">
-    <Skills {...data}/>  
+    <Skills {...skills}/>  
   </section>
 
+MainContent.propTypes = {
+  skills: PropTypes.array.isRequired
+}
 export default MainContent;
