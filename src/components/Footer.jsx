@@ -9,5 +9,6 @@ const Footer = (social) =>
 
 Footer.propTypes = {
   social: PropTypes.array.isRequired
-}
+};
+
 export default Footer;
